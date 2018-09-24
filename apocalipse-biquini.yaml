@@ -41,7 +41,7 @@ storyboard:
     text: "Escolher a escada te deu uma vantagem, pois os elevadores estavam completamente parados. Você consegue chegar ao estacionamento a tempo de entrar no seu carro e fugir do prédio que já estava sendo atacado por uma horda de zumbis."
     next_scene_name: cena2
   cenavive2:
-    text: "Os elevadores estavam lotados, e você teve que esperar várias vezes para aparecer um em que você pudesse entrar, você demora muito tempo, alguns zumbis aparecem no corredor, mas você consegue entrar em um elevador, escapadando da morte por alguns segundos, chega ao seu carro em pânico, mas mantendo a classe como uma verdadeira modelo."
+    text: "Os elevadores estavam lotados, e você teve que esperar várias vezes para aparecer um em que você pudesse entrar, você demora muito tempo, alguns zumbis aparecem no corredor, mas você consegue entrar em um elevador, escapando da morte por alguns segundos, chega ao seu carro em pânico, mas mantendo a classe como uma verdadeira modelo."
     next_scene_name: cena2
   cena2:
     text: "Seguindo seu caminho até sua casa, você nota que a cidade está um caos, gente correndo por todo lado tentando escapar. Zumbis atacando aqueles que não conseguiram escapar a tempo, e outros se alimentando de civis recentemente mortos. Mais a frente, você encontra uma senhora de idade com uma criança ao seu lado, talvez seu neto, o garoto estava chorando e sua camiseta estava ensanguentada. Decida o que fazer nessa situação:"
