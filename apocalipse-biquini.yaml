@@ -4,6 +4,8 @@ authors:
   - "Igor"
   - "Plinio"
   - "Priscilla"
+target_audience: "Recomendado para adolescentes com 16 anos ou mais e que sejam estudantes regularmente matriculados no Mackenzie"
+first_scene_name: introducao1
 storyboard:
   introducao1:
     text: "O ano é 2100, estamos numa época em que a inteligência artificial e a robótica estão começando a desempenhar funções importantes na sociedade. Uma das frentes que começou a se destacar com esse desenvolvimento foi a de entretenimento. Com isso surgiu o Zombie Roullet, o primeiro simulador de sobrevivência a apocalipses robôs zumbis em “ambiente controlado”."
@@ -107,4 +109,3 @@ storyboard:
   endgame:
     text: "Vocês sobreviverão por alguns dias dentro do búnquer, tem comida o suficiente, mas em determinado momento ela irá acabar. Quando isso acontecer, o que você irá fazer? Será que os militares conseguirão controlar essa situação a tempo? Se isso não acontecer será necessário sair do búnquer. Você tem algumas armas ali dentro, mas contra robôs zumbis não é tão simples assim..."
     the_end: true
-first_scene_name: introducao1

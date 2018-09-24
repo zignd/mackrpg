@@ -43,9 +43,10 @@ def parse_storyboard(path):
     try:
         title = content["title"]
         authors = content["authors"]
+        target_audience = content["target_audience"]
         first_scene_name = content["first_scene_name"]
         scenes_raw = content["storyboard"]
         scenes = build_scenes(scenes_raw)
-        return Storyboard(title, authors, first_scene_name, scenes)
+        return Storyboard(title, authors, target_audience, first_scene_name, scenes)
     except Exception as e:
         raise Exception("The provided file is an invalid format") from e

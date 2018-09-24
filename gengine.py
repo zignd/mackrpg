@@ -54,9 +54,10 @@ class Scene:
 
 
 class Storyboard:
-    def __init__(self, title, authors, first_scene_name, scenes):
+    def __init__(self, title, authors, target_audience, first_scene_name, scenes):
         self.title = title
         self.authors = authors
+        self.target_audience = target_audience
         self.first_scene_name = first_scene_name
         self.scenes = scenes
         self.current_score = 0
@@ -67,6 +68,10 @@ class Storyboard:
         print("Autores:")
         for index, author in enumerate(self.authors):
             print(" - {0}".format(author))
+        print("Público alvo: {0}".format(self.target_audience))
+        print("Manual: As interações com o jogo consistem em escolher ações através de números e confirmações com o " +
+              "botão Enter. O caractere '>' indica uma soliticação de interação através de números, mas quando " +
+              "estiver acompanhado de um '[Enter]' você deverá aperta Enter apenas.")
 
     def play(self):
         self.current_score = 0
