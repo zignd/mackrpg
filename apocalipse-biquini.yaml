@@ -89,7 +89,7 @@ storyboard:
     text: "Você consegue escalar o portão e quebrar uma janela para entrar em casa. Por ser uma ex-militar, seu treinamento no exército foi extremamente útil nessa situação."
     next_scene_name: cena5
   cenamorre3:
-    text: "Por mais que você seja uma modelo e esteja de bíquini, Josh, sua família e todos os seus vizinhos já estavam trancados em csa e ninguém te ofereceu ajuda. Então você decide voltar correndo para tentar escalar o portão de casa, mas alguns zumbis surgem, saindo de dentro de uma casa, no mesmo momento seu celular toca fazendo com que eles notem sua presença, eles começam a correr atrás de você e te alcançam antes que você possa chegar ao seu carro ou portão de casa. Você acaba sendo devorada viva."
+    text: "Por mais que você seja uma modelo e esteja de biquíni, Josh, sua família e todos os seus vizinhos já estavam trancados em casa e ninguém te ofereceu ajuda. Então você decide voltar correndo para tentar escalar o portão de casa, mas alguns zumbis surgem, saindo de dentro de uma casa, no mesmo momento seu celular toca fazendo com que eles notem sua presença, eles começam a correr atrás de você e te alcançam antes que você possa chegar ao seu carro ou portão de casa. Você acaba sendo devorada viva."
     game_over: true
   cena5:
     text: "Entrando na sua casa, você vai em direção ao seu quarto, mas escuta um barulho na cozinha. Decida o que fazer nessa situação:"
