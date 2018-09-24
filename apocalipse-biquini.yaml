@@ -5,93 +5,106 @@ authors:
   - "Plinio"
   - "Priscilla"
 storyboard:
-  introducao:
-    text: "O ano é 2100, estamos numa época em que a inteligência artificial e a robótica estão começando a desempenhar funções importantes na sociedade. Uma das frentes que começou a se destacar com esse desenvolvimento foi a de entretenimento. Com isso surgiu o Zombie Roullet, o primeiro simulador de sobrevivência a apocalipses zumbis em “ambiente controlado”. 
-    Numa bela manhã nublada no Distrito 572, nossa personagem Megan, uma ex-militar que largou o exército para seguir seu sonho de modelo, está tomando seu café da manhã fitness para mais tarde ir até sua clínica de beleza para fazer seu bronzeamento artificial. 
-    Mais tarde naquele dia, já na clínica, sirenes começam a tocar por toda cidade e o pânico toma conta do ambiente! A TV anuncia que houve uma falha de segurança do simulador Zombie Roullet e robôs zumbis descontrolados estão atacando a cidade. A clínica que Megan está encontra-se a 2 quadras do simulador."
+  introducao1:
+    text: "O ano é 2100, estamos numa época em que a inteligência artificial e a robótica estão começando a desempenhar funções importantes na sociedade. Uma das frentes que começou a se destacar com esse desenvolvimento foi a de entretenimento. Com isso surgiu o Zombie Roullet, o primeiro simulador de sobrevivência a apocalipses robôs zumbis em “ambiente controlado”."
+    next_scene_name: introducao2
+  introducao2:
+    text: "Nossa história começa numa manhã nublada e com muita neblina como de costume no Distrito 572. Esse distrito está em uma zona de risco à saúde pública devido a diversos problemas ambientais na região em que se localiza. Dentre as diversas intervenções do governo da região para proteger a população, o clima da região foi induzido a uma situação de “continuously synthetic overcast” em que o céu fica nublado constantemente."
+    next_scene_name: introducao3
+  introducao3:
+    text: "Você joga como Megan, uma ex-militar que largou o exército para seguir seu sonho de se tornar uma modelo profissional, está tomando seu café da manhã fitness com um cereal popular chamado Crucilhos. Após abrir a caixa se depara com uma surpresa, um cupom indicando que ela havia ganhado uma sessão gratuita de bronzeamento artificial na clínica mais cara da região, Megan nunca teve muita sorte para ganhar em promoções, mas hoje era seu dia de sorte."
+    next_scene_name: introducao4
+  introducao4:
+    text: "Megan está extremamente feliz com o prêmio, e após terminar rapidamente seu café da manhã, ela coloca um biquíni novo que havia comprado, inicialmente para ir à praia pública artificial do Distrito 435 com suas amigas da agência. Em seguida coloca um roupão por cima e corre para o seu carro. Ela está indo para a clínica, respeitando os limites de velocidade, hoje a neblina está mais forte que o normal, provavelmente algum problema no sistema regulador. Ela chega à clinica e dá início à sessão."
+    next_scene_name: introducao5
+  introducao5:
+    text: "Algumas horas depois, ainda na clínica, sirenes começam a tocar por toda cidade e o pânico toma conta do ambiente! A TV anuncia que houve uma falha de segurança do simulador Zombie Roullet e os robôs zumbis estão descontrolados e atacando a cidade e dilacerando civis à luz do dia. O notificiario então é interrompido para dar lugar a um pronunciamento oficial do departamento de segurança do distrito, que recomenda a todos que procurem um lugar seguro e que não saiam às ruas até que a situação se normalize. A clínica que Megan está encontra-se a 2 quadras do simulador."
     next_scene_name: cena1
   cena1:
-    text: "Você se está na sala de bronzeamento, ainda de biquíni pois não tem tempo para de se trocar, o quê decide fazer?"
+    text: "Você está na sala de bronzeamento, ainda de biquíni pois não teve tempo para se trocar, o quê decide fazer?"
     actions:
-    - text: "Você decide seguir as instruções do noticiário e se proteger na clínica de estética."
+    - text: "Seguir as instruções do pronunciamento oficial do departamento de segurança e se proteger na clínica de estética."
       score: 0
       next_scene_name: cenamorte1
-    - text: "Você opta por usar as escadas de emergência para chegar ao estacionamento e usar seu carro, pois os elevadores estavam lotados após a notícia."
+    - text: "Usar as escadas de emergência para chegar ao estacionamento e usar seu carro, pois os elevadores estavam lotados e o caos reinava após as notícias."
       score: 10
       next_scene_name: cenavive1
-    - text: "Você escolhe esperar pelo elevador para chegar ao estacionamento."
+    - text: "Você escolhe esperar pelo elevador para chegar ao estacionamento, já que as escadas de emergência também estavam cheias de pessoas descendo correndo dos diversos andares do prédio."
       score: 5
       next_scene_name: cenavive2
   cenamorte1:
-    text: "Como a clínica estava muito próxima do simulador, os zumbis se aproximam em pouco tempo, te deixando presa e você acaba morrendo."
+    text: "Como a clínica estava muito próxima do simulador, uma horda de zumbis se aproxima em pouco tempo, te encurralando e você acaba sendo dilacerada junto a outros clientes da clínica."
     game_over: true
   cenavive1:
-    text: "Escolher a escada te deu uma vantagem, pois o elevador estava completamente parado e você consegue demoraria muito mais tempo!"
+    text: "Escolher a escada te deu uma vantagem, pois os elevadores estavam completamente parados. Você consegue chegar ao estacionamento a tempo de entrar no seu carro e fugir do prédio que já estava sendo atacado por uma horda de zumbis."
     next_scene_name: cena2
   cenavive2:
-    text: "Os elevadores estavam lotados, você demora muito tempo mas ainda consegue chegar até seu carro!"
+    text: "Os elevadores estavam lotados, e você teve que esperar várias vezes para aparecer um em que você pudesse entrar, você demora muito tempo, alguns zumbis aparecem no corredor, mas você consegue entrar em um elevador, escapadando da morte por alguns segundos, chega ao seu carro em pânico, mas mantendo a classe como uma verdadeira modelo."
     next_scene_name: cena2
   cena2:
-    text: "Seguindo seu caminho até sua casa, você nota que a cidade está um caos, gente correndo por todo lado tentando escapar. Mais a frente, você encontra uma mãe com seu filho aparentemente machucado pedindo ajuda, você escolhe:"
+    text: "Seguindo seu caminho até sua casa, você nota que a cidade está um caos, gente correndo por todo lado tentando escapar. Zumbis atacando aqueles que não conseguiram escapar a tempo, e outros se alimentando de civis recentemente mortos. Mais a frente, você encontra uma senhora de idade com uma criança ao seu lado, talvez seu neto, o garoto estava chorando e sua camiseta estava ensanguentada. Decida o que fazer nessa situação:"
     actions:
-    - text: "Oferecer ajuda para os dois."
+    - text: "Passar com o carro perto dos dois e oferecer ajuda, será rápido e você poderá salvar duas vidas de civis indefesos."
       score: 0
       next_scene_name: cenamorre2
-    - text: "Ignorá-los e deguir seu caminho."
+    - text: "Ignorar os dois e seguir em frente, em situações assim, as vezes, você precisa colocar a sua vida em primeiro lugar."
       score: 5
       next_scene_name: cenavive3
   cenamorre2:
-    text: "Seu espírito humanitário foi mais forte e você decide parar para ajudar a mãe e seu filho ferido, mas isso permite que os zumbis cheguem até vocês e vocês morrem."
+    text: "Seu espírito humanitário foi mais forte e você decide parar para ajudar a senhora e seu neto ferido, os dois conseguem entrar no carro, mas a senhora demorou muito para entrar no carro, e foi tempo o suficiente para uma horda de zumbis encurralar vocês. Eles abrem a lataria do carro com seus dentes e mãos de metal. Os três morrem dilacerados ali dentro do carro mesmo."
     game_over: true
   cenavive3:
-    text: "Você decide não ajudar e segue seu caminho. Olhando pelo retrovisor, você percebe que se tivesse parado pra ajudar, teria morrido."
+    text: "Você decide não ajudar e segue seu caminho. Olhando pelo retrovisor, você percebe que se tivesse parado pra ajudar, teria virado comida, pois uma horda acabou cercando os dois segundos depois, eles foram dilacerados ali mesmo, pois o garoto entrou em pânico e se agarrou à senhora, impedindo que ela corresse com ele para algum lugar seguro."
     next_scene_name: cena3
   cena3:
-    text: "Em seu caminho para casa, você percebe que alguns zumbis já estão tomando conta da cidade e a rua que você teria que seguir já está sendo atacada por alguns zumbis:"
+    text: "Você já está próxima a sua casa, mas percebe que mais à frente na rua que você está seguindo que alguns zumbis estão no seu caminho. Decida o que fazer nessa situação:"
     actions:
-    - text: Você decide seguir a rua mesmo assim.
-      score: -5
+    - text: "Seguir por essa rua mesmo assim e passar por cima dos zumbis com seu carro, são poucos, você acredita que irá conseguir e está curiosa para saber se o dano causado pelo carro é capaz de destrui-los."
+      score: 10
       next_scene_name: cenavive4
-    - text: Você opta por dar ré e tentar achar outro caminho.
-      score: 5
+    - text: "Dar ré e tentar um caminho alternativo, você conhece a região."
+      score: 15
       next_scene_name: cenavive5
   cenavive4:
-    text: "Acelerando seu carro e tentando desviar dos zumbis, um deles acaba se chocando contra seu carro e fica preso na roda, danificando seu carro."
+    text: "Você se prepara e acelera contra os poucos zumbis que estão na rua. A colisão os destroi, mas seu carro acaba sendo danificado, pelo visto eles são resistentes."
     next_scene_name: cena4
-  cenavive5: 
-    text: "Como você lida sempre com trânsito, se lembra de uma outra rota e segue por lá, evitando por enquanto qualquer conflito com os zumbis por enquanto."
+  cenavive5:
+    text: "A rota alternativa lhe poupou sua vida e um tremendo dano no seu carro, ao olhar pelo retrovisor nota que um outro carro tentou ir contra os zumbis, era um daqueles carros de apenas um passageiro, mas na colisão o zumbi acabou destruindo o carro desse civil, ele ficou preso nas ferragens e em seguida foi dilacerado pelos outros zumbis."
     next_scene_name: cena4
   cena4:
-    text: "Ao aproximar-se da sua casa, você percebe que esqueceu sua chave do portão, então decide: "
+    text: "Você chegou à sua casa, saiu do carro, mas percebe que esqueceu a chave do portão no roupão que não conseguiu encontrar na clínica. Você e seu vizinho Josh têm búnquers em casa, e você percebe que algumas luzes da casa dele estão acesas. Decida o que fazer nessa situação:"
     actions:
-    - text: "Sair do carro e tentar pular o portão"
+    - text: "Tentar escalar o portão da sua casa e quebrar uma janela para conseguir entrar."
+      score: 15
+      next_scene_name: cenavive6
+    - text: "Correr para a porta do Josh, e pedir ajuda a ele ou a algum membro de sua família que estiver em casa."
       score: 5
       next_scene_name: cenavive6
-    - text: "Sair do carro e procurar outro lugar para se abrigar"
+    - text: "Procurar outro lugar para se abrigar"
       score: 0
       next_scene_name: cenamorre3
   cenavive6:
-    text: "Sendo uma ex-militar, seu treinamento no exército foi extremamente útil nessa situação, você consegue escalar o portão e entrar em casa!"
+    text: "Você consegue escalar o portão e quebrar uma janela para entrar em casa. Por ser uma ex-militar, seu treinamento no exército foi extremamente útil nessa situação."
     next_scene_name: cena5
   cenamorre3:
-    text: "Por mais que você seja uma modelo e esteja de bíquini, os seus vizinhos todos se trancaram em casa e ninguém te ofereceu ajuda, então você decide se esconder no carro. Após algum tempo, os zumbis se aproximam da região e seu celular começa a tocar, isso atrai os zumbis para você e eles acabam te pegando."
+    text: "Por mais que você seja uma modelo e esteja de bíquini, Josh, sua família e todos os seus vizinhos já estavam trancados em csa e ninguém te ofereceu ajuda. Então você decide voltar correndo para tentar escalar o portão de casa, mas alguns zumbis surgem, saindo de dentro de uma casa, no mesmo momento seu celular toca fazendo com que eles notem sua presença, eles começam a correr atrás de você e te alcançam antes que você possa chegar ao seu carro ou portão de casa. Você acaba sendo devorada viva."
     game_over: true
   cena5:
-    text: "Entrando na sua casa, você vai em direção ao seu quarto mas escuta um barulho na cozinha, então você escolhe:"
+    text: "Entrando na sua casa, você vai em direção ao seu quarto, mas escuta um barulho na cozinha. Decida o que fazer nessa situação:"
     actions:
-    - text: Pegar seu revólver em cima da mesa e ir até a cozinha
+    - text: "Pegar seu revólver em cima da mesa e ir até cuidadosamente até a cozinha."
       score: 5
       next_scene_name: cenafinal1
-    - text: Ignorar o barulho e correr para o bunker
+    - text: "Ignorar o barulho e correr para o búnquer."
       score: 10
       next_scene_name: cenafinal2
   cenafinal1:
-    text: "Você se direciona até a cozinha com o revólver em mãos, escuta um barulho alto na esquerda e algo se movimentando e atira! Ao se aproximar, percebe que quem estava fazendo barulho era seu vizinho mal educado Godofredo, que vivia te dando cantadas e te desrespeitando, mas que agora, está morto. Que azar, Godofredo."
+    text: "Você se direciona até a cozinha com o revólver em mãos, escuta gemidos, se pergunta se é alguém ferido ou um zumbi. Ao se aproximar percebe que é sua vizinha Lucy, ela parece ter sido mordida na perna por um zumbi. Você abaixa a arma, ajuda sua amiga a se levantar. Lucy fica extremamente aliviada por ter sido encontrada por sua amiga. Ela te avisa que seu cachorrinho chamado “Dumbledog” estava no seu quarto brincando com uma bolinha. Você corre até o quarto, busca Dumbledog e o leva junto de Lucy para o búnquer."
     next_scene_name: endgame
   cenafinal2:
-    text: "Você ignora o barulho e corre até seu quarto, agarra seu cachorrinho chamado “Linguicinha” e corre até o bunker, se protegendo da invasão."
+    text: "Você ignora o barulho e corre até seu quarto, encontra “Dumbledog” seu cachorrinho, ele estava distraído brincando com uma bolinha. Você então entra no búnquer com ele."
     next_scene_name: endgame
   endgame:
-    text: "Após alguns dias dentro do bunker, o rádio dá a notícia de que os militares conseguiram controlar a invasão e as pessoas estão liberadas para voltarem a suas vidas normais! Obrigado por jogar!"
+    text: "Vocês sobreviverão por alguns dias dentro do búnquer, tem comida o suficiente, mas em determinado momento ela irá acabar. Quando isso acontecer, o que você irá fazer? Será que os militares conseguirão controlar essa situação a tempo? Se isso não acontecer será necessário sair do búnquer. Você tem algumas armas ali dentro, mas contra robôs zumbis não é tão simples assim..."
     the_end: true
-first_scene_name: introducao
+first_scene_name: introducao1
